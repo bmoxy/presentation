@@ -16,7 +16,38 @@ html * {
 *******************************************/
 
 .left {
-  text-align: left;
+  text-align: left !important;
+}
+
+.reveal li {
+  padding-bottom: 10px !important;
+  font-size: 70% !important;
+}
+
+.reveal p {
+  font-size: 70% !important;
+}
+
+em.bold {
+    font-weight: bold !important;
+    font-size: 125% !important;
+}
+
+sup a {
+  color:#ffffff !important;
+  font-size: 75% !important;
+}
+
+sup a:hover {
+  color:#dae2e8 !important;
+}
+
+section#slide3 {
+  top: -40px !important;
+}
+
+section#slide4 {
+  top: -40px !important;
 }
 
 /*********************************************
@@ -51,9 +82,8 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: -100px 0 20px 0;
-  position: absolute;
-  color: #17ddff;
+  margin: 0px 0 20px 0;
+  color: #fafeff;
   font-family: "Lato", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
@@ -260,31 +290,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #268bd2; }
+  border-right-color: #f7fcff; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #268bd2; }
+  border-left-color: #f7fcff; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #268bd2; }
+  border-bottom-color: #f7fcff; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #268bd2; }
+  border-top-color: #f7fcff; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #78b9e6; }
+  border-right-color: #c3bcbc; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #78b9e6; }
+  border-left-color: #c3bcbc; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #78b9e6; }
+  border-bottom-color: #c3bcbc; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #78b9e6; }
+  border-top-color: #c3bcbc; }
 
 /*********************************************
  * PROGRESS BAR
